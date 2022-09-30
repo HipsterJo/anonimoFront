@@ -1,0 +1,48 @@
+.SortComponent{
+    display: flex;
+    align-items: center;
+}
+.dropbtn {
+    margin-left: 5px;
+    background-color: #374151;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdowncontent button {
+    
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .dropdowncontent button:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdowncontent {
+    display: block;
+    
+}
+  
+  .dropdown:hover .dropbtn {background-color: #205221;}
